@@ -1,0 +1,22 @@
+﻿MyGarden - your very own personal gardener!
+
+Enter all your flowers, grewn fruits and vegetables as well as your flowerbeds, raised gardens and pots. Log your actions and MyGarden gives you an overview to help you plan for crop rotation.
+
+Action Types
+You decide what kind of gardening actions you want to track: sow, bed out, replant, crop and maybe even water...
+
+Locations
+Enter the different Locations of your garden, you might have a flowerbed at the front, and a couple of raised gardens near the kitchen door. 
+
+Plant Types
+Enter your Plant types of all sorts e.g Carrots, Garlic, Geranium etc. Add caring instructions, preferred soil and nutrition needs.
+
+Plants
+Register your plants varieties. Now you are ready to log your actions which you can do either directly from the Plants admin or in the Location admin - what ever works best that day.
+
+To add a new Plant Type, Action Type, Plant or Location you just type a new, unique name and click the Add button. In that way you can easily copy another item by selecting it, change the name and Add!
+Actions are saved automatically as soon as you have selected the Location or Plant plus Action Type. The action date is set to the current date and time, but you can change it if needed. The Harvest Season is set to the same year as the action date, but can also be changed in case you sow or plant something for next season.
+
+Use the Overviews to plan what to sow or plant for next season - makes it easy to pactice crop rotation!
+
+Happy planting!
