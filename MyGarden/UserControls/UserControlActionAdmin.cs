@@ -67,7 +67,6 @@ namespace MyGarden
         public UserControlActionAdmin()
         {
             InitializeComponent();
-            // TODO: 11. Skriv Read me!
         }
 
         private void UserControlActionAdmin_Load(object sender, EventArgs e)

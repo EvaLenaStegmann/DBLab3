@@ -1,6 +1,6 @@
-﻿MyGarden - your very own personal gardener!
+﻿MyGarden - keeps track of where you planted what - and when!
 
-Enter all your flowers, grewn fruits and vegetables as well as your flowerbeds, raised gardens and pots. Log your actions and MyGarden gives you an overview to help you plan for crop rotation.
+Enter all your flowers, grewn fruits and vegetables as well as your flowerbeds, raised gardens and pots. Log your actions and MyGarden gives you an overview to help you plan for crop rotation and to see where you might have space left.
 
 Action Types
 You decide what kind of gardening actions you want to track: sow, bed out, replant, crop and maybe even water...

@@ -28,7 +28,7 @@ namespace MyGarden
 
             builder.Property(e => e.Soil)
                 .HasMaxLength(100);
-
+            //TODO: mer testdata... (inte bara just planttypes)
             builder.HasData(
                  new PlantType() { Id = 1, Name = "Morot", Perennial = false },
                  new PlantType() { Id = 2, Name = "Vitlök", Perennial = false },

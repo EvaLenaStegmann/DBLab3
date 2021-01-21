@@ -180,6 +180,8 @@ namespace MyGarden
                         {
                             Plant plantToAdd = new Plant();
                             plantToAdd.Name = textBoxPlantName.Text;
+                            PlantType selectedPlantType = comboBoxPlantTypes.SelectedItem as PlantType;
+                            plantToAdd.PlantTypeId = selectedPlantType.Id;
 
                             var trackedObjects = db.ChangeTracker.Entries();
                             db.Plants.Add(plantToAdd);
@@ -266,6 +268,8 @@ namespace MyGarden
                             if (plantToUpdate != null)
                             {
                                 plantToUpdate.Name = textBoxPlantName.Text;
+                                PlantType selectedPlantType = comboBoxPlantTypes.SelectedItem as PlantType;
+                                plantToUpdate.PlantTypeId = selectedPlantType.Id;
                             }
 
                             var trackedObjects = db.ChangeTracker.Entries();
@@ -342,9 +346,12 @@ namespace MyGarden
         {
             bool updated = false;
             message = null;
+            PlantType selectedPlantType = comboBoxPlantTypes.SelectedItem as PlantType;
             if ((plant.Name != null || textBoxPlantName.Text != "") &&
-                plant.Name != textBoxPlantName.Text
+                (plant.Name != textBoxPlantName.Text ||
+                (selectedPlantType != null && plant.PlantTypeId != selectedPlantType.Id)
                 )
+               )
             {
                 if (MessageBox.Show($"Do you want to save '{textBoxPlantName.Text}'?",
                             "Confirm Leave",
@@ -369,6 +376,5 @@ namespace MyGarden
         {
             ClickedExit?.Invoke(this, null);
         }
-
     }
 }

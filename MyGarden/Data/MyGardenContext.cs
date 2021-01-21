@@ -27,7 +27,8 @@ namespace MyGarden
             var config = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false)
-                //.AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("MyProject_Environment")}.json", optional: true) TODO: alternativa connection strings och User Secrets
+                //TODO: alternativa connection strings och User Secrets
+                //.AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("MyGarden_Environment")}.json", optional: true) 
                 //.AddUserSecrets("2a050483-5045-4a5c-9c38-247b2f1c0f18")
                 .Build();
 

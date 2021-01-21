@@ -319,7 +319,7 @@ namespace MyGarden
                  plantTypeNutrition != textBoxNutrition.Text ||
                  plantTypeInfo != textBoxInfo.Text
                 )
-                )
+               )
             {
                 if (MessageBox.Show($"Do you want to save '{textBoxPlantTypeName.Text}'?",
                             "Confirm Leave",
