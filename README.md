@@ -11,8 +11,8 @@ Visual Studio 2019\
 Entity Framework Core
 
 ## Setup
-Clone the project.\
-Adjust the ../DBLab3/Mygarden/appsettings.json (unless you want the MyGarden database created on localhost and use a trusted connection).\
+Clone the project to a 'location' of your choice.\
+If you want the MyGarden database on another servar than localhost, or don't want to use a trusted connection: adjust the 'location'/DBLab3/Mygarden/appsettings.json\
 Run update-database from the Package Manager Console\
 Build the solution and run the application...
 
