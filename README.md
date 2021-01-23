@@ -11,8 +11,8 @@ Visual Studio 2019\
 Entity Framework Core
 
 ## Setup
-Clone the project to a 'location' of your choice on your Windows computer.\
-If you want the MyGarden database on another servar than localhost, or don't want to use a trusted connection: adjust 'location'/DBLab3/Mygarden/appsettings.json.\
-Run update-database from the Package Manager Console\
-Build the solution and run the application...
+Clone the project to 'yourLocation' of your choice on your Windows computer.\
+If you want the MyGarden database on another server than localhost, or don't want to use a trusted connection: adjust 'yourLocation'\DBLab3\MyGarden\appsettings.json.\
+Open the solution and run update-database from the NuGet Package Manager Console.\
+Run the application, either within Visual Studio or from 'yourLocation'\DBLab3\MyGarden\bin\Debug\netcoreapp3.1\MyGarden.exe
 
