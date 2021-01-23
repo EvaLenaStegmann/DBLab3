@@ -18,12 +18,10 @@ namespace MyGarden
                 .HasMaxLength(100);
 
             builder.HasData(
-                 new ActionType() { Id = 1, Name = "Förberett jorden" },
-                 new ActionType() { Id = 2, Name = "Lagt på förgroning" },
-                 new ActionType() { Id = 3, Name = "Sått/Satt" },
-                 new ActionType() { Id = 4, Name = "Planterat om" },
-                 new ActionType() { Id = 5, Name = "Planterat" },
-                 new ActionType() { Id = 6, Name = "Beskurit" }
+                 new ActionType() { Id = 1, Name = "Sått/Satt" },
+                 new ActionType() { Id = 2, Name = "Planterat om" },
+                 new ActionType() { Id = 3, Name = "Planterat ut" },
+                 new ActionType() { Id = 4, Name = "Beskurit" }
              );
         }
     }

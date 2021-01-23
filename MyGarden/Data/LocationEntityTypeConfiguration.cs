@@ -20,7 +20,8 @@ namespace MyGarden
                  new Location() { Id = 1, Name = "Pallkrage längst bort" },
                  new Location() { Id = 2, Name = "Pallkrage i mitten" },
                  new Location() { Id = 3, Name = "Pallkrage närmast altanen" },
-                 new Location() { Id = 4, Name = "Krukor" }
+                 new Location() { Id = 4, Name = "Kruka 1" },
+                 new Location() { Id = 5, Name = "Kruka 2" }
              );
 
         }

@@ -47,9 +47,19 @@ namespace MyGarden
             builder.HasCheckConstraint("CK_Actions_HarvestSeason","HarvestSeason >= year(ActionDate)");
 
             builder.HasData(
-                 new Action() { PlantId = 1, LocationId = 2, Id = 1, ActionTypeId = 3, ActionDate = Convert.ToDateTime("2019-11-07"), HarvestSeason = 2020 },
-                 new Action() { PlantId = 2, LocationId = 2, Id = 2, ActionTypeId = 3, ActionDate = Convert.ToDateTime("2019-11-07"), HarvestSeason = 2020 },
-                 new Action() { PlantId = 3, LocationId = 2, Id = 3, ActionTypeId = 3, ActionDate = Convert.ToDateTime("2020-04-18"), HarvestSeason = 2020 }
+                 new Action() { PlantId = 1, LocationId = 2, Id = 1, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2018-11-07"), HarvestSeason = 2019 },
+                 new Action() { PlantId = 2, LocationId = 2, Id = 2, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2018-11-07"), HarvestSeason = 2019 },
+                 new Action() { PlantId = 1, LocationId = 1, Id = 3, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2019-10-30"), HarvestSeason = 2020 },
+                 new Action() { PlantId = 2, LocationId = 1, Id = 4, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2019-10-30"), HarvestSeason = 2020 },
+                 new Action() { PlantId = 10, LocationId = 1, Id = 5, ActionTypeId = 3, ActionDate = Convert.ToDateTime("2018-04-20"), HarvestSeason = 2019 },
+                 new Action() { PlantId = 3, LocationId = 1, Id = 6, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2019-05-02"), HarvestSeason = 2019 },
+                 new Action() { PlantId = 4, LocationId = 1, Id = 7, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2019-05-02"), HarvestSeason = 2019 },
+                 new Action() { PlantId = 3, LocationId = 3, Id = 8, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2020-04-23"), HarvestSeason = 2020 },
+                 new Action() { PlantId = 4, LocationId = 3, Id = 9, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2020-04-23"), HarvestSeason = 2020 },
+                 new Action() { PlantId = 9, LocationId = 4, Id = 10, ActionTypeId = 3, ActionDate = Convert.ToDateTime("2019-05-02"), HarvestSeason = 2019 },
+                 new Action() { PlantId = 9, LocationId = 4, Id = 11, ActionTypeId = 3, ActionDate = Convert.ToDateTime("2020-04-27"), HarvestSeason = 2020 },
+                 new Action() { PlantId = 1, LocationId = 3, Id = 12, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2020-11-03"), HarvestSeason = 2021 },
+                 new Action() { PlantId = 2, LocationId = 3, Id = 13, ActionTypeId = 1, ActionDate = Convert.ToDateTime("2020-11-03"), HarvestSeason = 2021 }
              );
 
         }

@@ -87,6 +87,11 @@ namespace MyGarden
                 dataGridViewPlantTypesPerLocation.Columns[location.Name].MinimumWidth = 140;
             }
 
+            if (PlantsPerLocationList.Count == 0)
+            {
+                return;
+            }
+
             int i = 0;
             do
             {
